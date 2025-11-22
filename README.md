@@ -139,3 +139,9 @@ C. Store scorecards
 ✔ Shell Scripting (Automation)
 
 ✔ Analytics Communication
+
+## **📊 Dashboard Preview**
+
+<img width="1918" height="968" alt="SQL_Dashboard" src="https://github.com/user-attachments/assets/04562094-1ee3-4004-ae12-4cd4e1dc0216" />
+
+
