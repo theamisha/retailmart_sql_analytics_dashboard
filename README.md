@@ -63,24 +63,33 @@ retailmart_analytics_project/
 1. One-command JSON data export
 2. Supports cron-based automated refresh
 
-## ** 🚀 How to Run This Project **
+## **🚀 How to Run This Project**
 
 1️⃣ Run SQL Setup
+
 psql -U postgres -d retailmart -f 01_setup/create_analytics_schema.sql
+
 psql -U postgres -d retailmart -f 01_setup/create_metadata_tables.sql
 
 2️⃣ Load Analytics Modules
+
 psql -U postgres -d retailmart -f 02_kpi_queries/sales_analytics.sql
+
 psql -U postgres -d retailmart -f 02_kpi_queries/product_analytics.sql
+
 psql -U postgres -d retailmart -f 02_kpi_queries/customer_analytics.sql
+
 psql -U postgres -d retailmart -f 02_kpi_queries/store_analytics.sql
 
 3️⃣ Export JSON Files
+
 chmod +x export_all_json.sh
+
 ./export_all_json.sh refresh
 
 4️⃣ Launch Dashboard
 cd 03_dashboard
+
 python3 -m http.server 8000
 
 
