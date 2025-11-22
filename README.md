@@ -1,20 +1,25 @@
-🛒 RetailMart SQL Analytics Dashboard
+## **🛒 RetailMart SQL Analytics Dashboar**
 
 A complete end-to-end SQL-based analytics dashboard built using PostgreSQL 16 and a lightweight HTML-CSS-JS frontend.
 This project showcases my ability to design a data model, write optimized SQL queries, create materialized views, build JSON APIs using SQL functions, and visualize insights through an interactive dashboard.
 
-📌 Overview
+## **📌 Overview**
 
 RetailMart Analytics Dashboard provides insights across:
 
 ✔ Sales
+
 ✔ Product Performance
+
 ✔ Customer Behavior
+
 ✔ Store Performance
 
 All analytics are fully generated through SQL functions and exported as JSON files, which the dashboard consumes dynamically.
 
-📁 Project Structure
+## 📁 Project Structure
+
+```
 retailmart_analytics_project/
 │
 ├── 01_setup/
@@ -31,44 +36,35 @@ retailmart_analytics_project/
 │   ├── index.html
 │   ├── dashboard.js
 │   ├── styles.css
-│   └── data/ (auto-generated JSON)
+│   └── data/  (auto-generated JSON)
 │
 └── export_all_json.sh
+```
 
-✨ Key Features
+
+## **✨ Key Features**
+
 🔹 Database Layer
-
-17 SQL Views
-
-8 Materialized Views
-
-22 JSON Export Functions
-
-Global refresh function
-
-Metadata & audit tracking
+1. 17 SQL Views
+2. 8 Materialized Views
+3. 22 JSON Export Functions
+4. Global refresh function
+5. Metadata & audit tracking
 
 🔹 Dashboard
-
-Built using HTML, CSS, JavaScript (Chart.js)
-
-Dynamic visualizations
-
-KPI cards
-
-Customer segmentation
-
-Revenue trends
-
-Real-time store & product insights
+1. Built using HTML, CSS, JavaScript (Chart.js)
+2. Dynamic visualizations
+3. KPI cards
+4. Customer segmentation
+5. Revenue trends
+6. Real-time store & product insights
 
 🔹 Automation
+1. One-command JSON data export
+2. Supports cron-based automated refresh
 
-One-command JSON data export
+## ** 🚀 How to Run This Project **
 
-Supports cron-based automated refresh
-
-🚀 How to Run This Project
 1️⃣ Run SQL Setup
 psql -U postgres -d retailmart -f 01_setup/create_analytics_schema.sql
 psql -U postgres -d retailmart -f 01_setup/create_metadata_tables.sql
@@ -91,57 +87,46 @@ python3 -m http.server 8000
 Visit:
 👉 http://localhost:8000
 
-📊 Dashboard Sections
+## **📊 Dashboard Sections**
 1. Executive Summary
-
-Revenue
-
-Orders
-
-Customer Count
-
-Top 10 Products
-
-Monthly revenue trend
+A. Revenue
+B. Orders
+C. Customer Count
+D. Top 10 Products
+E. Monthly revenue trend
 
 2. Sales Analytics
-
-Daily performance
-
-Category-wise revenue
-
-Quarterly comparison
+A. Daily performance
+B. Category-wise revenue
+C. Quarterly comparison
 
 3. Product Performance
-
-ABC Analysis
-
-Top selling products
-
-Product revenue share
+A. ABC Analysis
+B. Top selling products
+C. Product revenue share
 
 4. Customer Insights
-
-RFM segmentation
-
-Customer Lifetime Value
-
-Churn risk analysis
+A. RFM segmentation
+B. Customer Lifetime Value
+C. Churn risk analysis
 
 5. Store Performance
+A. Top performing stores
+B. Regional breakdown
+C. Store scorecards
 
-Top performing stores
-
-Regional breakdown
-
-Store scorecards
-
-🎯 Skills
+## **🎯 Skills**
 
 ✔ SQL Views & Materialized Views
+
 ✔ PostgreSQL Functions (JSON Output)
+
 ✔ Data Modeling
+
 ✔ Performance Optimization
+
 ✔ Dashboard Development
+
 ✔ Shell Scripting (Automation)
+
 ✔ Analytics Communication
