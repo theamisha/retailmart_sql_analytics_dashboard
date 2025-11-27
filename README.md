@@ -1,4 +1,4 @@
-## **🛒 RetailMart SQL Analytics Dashboar**
+## **🛒 RetailMart SQL Analytics Dashboard**
 
 A complete end-to-end SQL-based analytics dashboard built using PostgreSQL 16 and a lightweight HTML-CSS-JS frontend.
 This project showcases my ability to design a data model, write optimized SQL queries, create materialized views, build JSON APIs using SQL functions, and visualize insights through an interactive dashboard.
